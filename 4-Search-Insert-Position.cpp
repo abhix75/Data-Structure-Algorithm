@@ -1,4 +1,4 @@
-/*
+
 int searchInsert(vector<int>& arr, int m)
 {
 	int n=arr.size();
@@ -18,4 +18,4 @@ int searchInsert(vector<int>& arr, int m)
 		}
 	}
 	return ans;
-}*/
+}

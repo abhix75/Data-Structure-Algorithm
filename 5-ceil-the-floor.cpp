@@ -1,4 +1,4 @@
-/**
+
 int getfloor(int arr[],int n,int x)
 {
 	int low=0,high=n-1;
@@ -45,4 +45,3 @@ pair<int, int> getFloorAndCeil(int arr[], int n, int x) {
    int g=getceil(arr,n,x);
    return make_pair(f,g);
 }
-*/

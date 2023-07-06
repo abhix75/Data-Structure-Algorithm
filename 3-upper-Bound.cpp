@@ -1,4 +1,4 @@
-/**
+
 int upperBound(vector<int> &arr, int x, int n){
     int low=0,high=n-1;
 	int ans=n;
@@ -19,4 +19,4 @@ int upperBound(vector<int> &arr, int x, int n){
 	
 	}
 	return ans;	
-}*/
+}
