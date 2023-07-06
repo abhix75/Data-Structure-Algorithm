@@ -1,6 +1,6 @@
 /**
 METHOD-I(USING LOwer-Bound and Upper-Bound)
-
+*/
 
 
 
@@ -52,7 +52,7 @@ pair<int, int> firstAndLastPosition(vector<int>& arr, int n, int k)
     if(lb == n || arr[lb] != k) return{-1,-1};
 
     return {lb,upperbound(arr,n,k)-1};
-}*/
+}
 
 
 
@@ -62,7 +62,7 @@ pair<int, int> firstAndLastPosition(vector<int>& arr, int n, int k)
 
 /**
 METHOD-II (Without Using Lower-bound and Upper-bound)
-
+*/
 #include <bits/stdc++.h> 
 
 int firstoccurence(vector<int>&arr,int n,int k)
@@ -125,4 +125,3 @@ pair<int, int> firstAndLastPosition(vector<int>& arr, int n, int k)
 
 
 
-*/
