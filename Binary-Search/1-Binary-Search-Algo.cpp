@@ -1,4 +1,4 @@
-
+Problem link:https://www.codingninjas.com/studio/problems/binary-search_972?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 class Solution {
   public:
     int binarysearch(int arr[], int n, int k) {
